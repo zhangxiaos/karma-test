@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+<script>
+    // 待测试代码
+    function add(x, y) {
+        return x + y;
+    }
+
+    function sub(x, y) {
+        return x - y;
+    }
+
+    // 测试用例
+    var test1 = function() {
+        var res = add(1, 2);
+
+        if (res === 3) {
+            console.log('OK');
+        } else {
+            console.error('Error');
+        }
+    }
+
+    var test2 = function() {
+        var res = sub(5, 2);
+
+        if (res === 3) {
+            console.log('OK');
+        } else {
+            console.error('Error');
+        }
+    }
+
+    test1();
+    test2();
+</script>
+</body>
+</html>
